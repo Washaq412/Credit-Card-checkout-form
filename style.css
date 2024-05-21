@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url(https://plus.unsplash.com/premium_photo-1681819806346-16caebd8b2d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y3JlZGl0JTIwY2FyZHN8ZW58MHx8MHx8fDA%3D);
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+}
+
+.payment-info {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.card-details {
+    flex: 1;
+}
+
+.payment-info h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.payment-info p {
+    color: #888;
+    margin-top: 5px;
+}
